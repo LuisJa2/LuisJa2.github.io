@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+table{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+td{
+    font-size: 100px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.dorado{
+    background-color: darkgoldenrod;
+}
+.amarillo{
+    background-color: yellow;
+}
+.rosa{
+    background-color: pink;
+}
+.verde{
+    background-color: lime;
+}
+.negro{
+    background-color: black;
+    color: white;
+}
+.rojo:hover{
+    background-color: black;
+    color: red;
+}
+.azul:hover{
+    background-color: black;
+    color: blue;
+}
+.dorado:hover{
+    background-color: black;
+    color: darkgoldenrod;
+}
+.amarillo:hover{
+    background-color: black;
+    color: yellow;
+}
+.rosa:hover{
+    background-color: black;
+    color: pink;
+}
+.verde:hover{
+    background-color: black;
+    color: lime;
+}
+.negro:hover{
+    color: black;
+    background-color: white;
+}
+.rojo:target{
+    background-color: goldenrod;
+    color: white;
+}
+.azul:target{
+    background-color: goldenrod;
+    color: white;
+}
+.dorado:target{
+    background-color: goldenrod;
+    color: white;
+}
+.amarillo:target{
+    background-color: goldenrod;
+    color: white;
+}
+.rosa:target{
+    background-color: goldenrod;
+    color: white;
+}
+.verde:target{
+    background-color: goldenrod;
+    color: white;
+}
+.negro:target{
+    background-color: goldenrod;
+    color: white;
+}
