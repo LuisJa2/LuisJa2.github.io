@@ -1,0 +1,85 @@
+body{
+    margin: auto;
+    background-color: lemonchiffon;
+    font-family: "Itim";
+}
+main{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Permanent Marker";
+}
+h1{
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    margin: 0;
+}
+h3{
+    font-family: "Permanent Marker";
+}
+figure{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#sagas li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #528db1;
+    border: 3px solid #9C2e1f;
+}
+#sagas li+li{
+    background-color: #7f0909;
+    border: 3px solid #ffc500;
+}
+#sagas li+li+li{
+    background-color: #ffc500;
+    border: 3px solid #1c2020;
+}
+#sagas li+li+li+li{
+    background-color: #d8dfe1;
+    border: 3px solid #417d6c;
+}
+#sagas nav{
+    padding-right: 50px;
+}
+#sagas ol{
+    text-align: center;
+
+}
+#navegacion li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    background-color: lightseagreen;
+    color: white;
+    border: 3px solid black;
+}
+#navegacion ol{
+    text-align: right;
+    padding: 20px;
+    padding-right: 50px;
+}
+#dark{
+    width: 600px;
+}
+#estrella{
+    height: 400px;
+    width: 600px;
+}
