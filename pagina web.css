@@ -28,6 +28,10 @@ h1{
 h3{
     font-family: "Permanent Marker";
 }
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
 figure{
     text-align: center;
 }
@@ -49,10 +53,6 @@ footer{
     border: 3px solid #ffc500;
 }
 #sagas li+li+li{
-    background-color: #ffc500;
-    border: 3px solid #1c2020;
-}
-#sagas li+li+li+li{
     background-color: #d8dfe1;
     border: 3px solid #417d6c;
 }
@@ -82,4 +82,46 @@ footer{
 #estrella{
     height: 400px;
     width: 600px;
+}
+#hagrid{
+    height: 400px;
+    width: 600px;
+}
+#hedwing{
+    height: 400px;
+    width: 600px;
+}
+#comisaria{
+    height: 400px;
+    width: 600px;
+}
+#escapada{
+    height: 400px;
+    width: 600px;
+}
+#bomberos{
+    height: 400px;
+    width: 600px;
+}
+#avion{
+    height: 400px;
+    width: 600px;
+}
+#starNav:hover{
+    color: #528db1;
+    border: #1c2020 solid 3px;
+    background: #9C2e1f;
+}
+#cityNav:hover{
+    color: #d8dfe1;
+    background-color: #417d6c;
+    border: #1c2020 3px solid;
+}
+#harryNav:hover{
+    color: #7f0909;
+    background-color: #ffc500;
+    border: #1c2020 3px solid;
+}
+#navegacion>ol>li:hover{
+    background: teal;
 }

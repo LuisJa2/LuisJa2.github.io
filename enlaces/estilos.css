@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    background-color: lemonchiffon;
+    font-family: "Itim";
+}
+main{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+    color: blue;
+}
+h1{
+    padding-left: 25px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    background-color: lightseagreen;
+    color: white;
+    border: 3px solid black;
+}
+li:hover{
+    background: teal;
+}
+#vuelta{
+    font-size: 50px;
+}
