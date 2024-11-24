@@ -3,6 +3,16 @@ body{
     background-color: lemonchiffon;
     font-family: "Itim";
 }
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 main{
     padding-left: 25px;
     padding-right: 25px;
@@ -14,6 +24,7 @@ a{
 }
 h1{
     padding-left: 25px;
+    font-family: "Permanent Marker";
 }
 li{
     list-style: none;
