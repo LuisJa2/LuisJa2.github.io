@@ -1,3 +1,17 @@
+@media(max-width:480px){
+    ol li{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    }
+}
 body{
     margin: auto;
     background-color: lemonchiffon;
@@ -27,7 +41,8 @@ h1{
     background-color: red;
     color: white;
     display: inline-block;
-    width: 490px;
+    width: 100%;
+    text-align: center;
 }
 h3{
     font-family: "Permanent Marker";

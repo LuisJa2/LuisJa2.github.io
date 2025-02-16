@@ -1,3 +1,17 @@
+@media(max-width:480px){
+    li{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    }
+}
 body{
     margin: auto;
     background-color: lemonchiffon;
@@ -52,14 +66,6 @@ footer{
     background-color: #7f0909;
     border: 3px solid #ffc500;
 }
-#sagas li+li+li{
-    background-color: #ffc500;
-    border: 3px solid #1c2020;
-}
-#sagas li+li+li+li{
-    background-color: #d8dfe1;
-    border: 3px solid #417d6c;
-}
 #sagas nav{
     padding-right: 50px;
 }
@@ -80,31 +86,13 @@ footer{
     padding: 20px;
     padding-right: 50px;
 }
-#dark{
-    width: 600px;
-}
-#estrella{
-    height: 400px;
-    width: 600px;
-}
-#hagrid{
-    height: 400px;
-    width: 600px;
+img{
+    width: 80%;
 }
 #starNav:hover{
     color: #528db1;
     border: #1c2020 solid 3px;
     background: #9C2e1f;
-}
-#techNav:hover{
-    color: #ffc500;
-    background-color: #1c2020;
-    border: #ffc500 3px solid;
-}
-#cityNav:hover{
-    color: #d8dfe1;
-    background-color: #417d6c;
-    border: #1c2020 3px solid;
 }
 #harryNav:hover{
     color: #7f0909;
