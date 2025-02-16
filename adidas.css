@@ -1,0 +1,61 @@
+body{
+    margin: auto;
+    background-color: lemonchiffon;
+    font-family: "Itim";
+}
+main{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Permanent Marker";
+}
+h1{
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    margin: 0;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    width: 17%;
+    text-align: center;
+}
+h3{
+    font-family: "Permanent Marker";
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#navegacion li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    background-color: lightseagreen;
+    color: white;
+    border: 3px solid black;
+}
+#navegacion ol{
+    text-align: right;
+    padding: 20px;
+    padding-right: 50px;
+}
+img{
+    width: 100%;
+}

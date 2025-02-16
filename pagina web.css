@@ -17,7 +17,6 @@ main{
     font-weight: 400;
     font-style: normal;
 }
-
 h2{
     font-family: "Permanent Marker";
 }
@@ -25,13 +24,6 @@ h1{
     font-family: "Permanent Marker";
     font-size: 40px;
     margin: 0;
-}
-#titulo{
-    background-color:crimson;
-    color: white;
-    display: inline-block;
-    text-align: center;
-    width: 400px;
 }
 h3{
     font-family: "Permanent Marker";
@@ -61,6 +53,10 @@ footer{
     border: 3px solid #ffc500;
 }
 #sagas li+li+li{
+    background-color: #ffc500;
+    border: 3px solid #1c2020;
+}
+#sagas li+li+li+li{
     background-color: #d8dfe1;
     border: 3px solid #417d6c;
 }
@@ -95,30 +91,15 @@ footer{
     height: 400px;
     width: 600px;
 }
-#hedwing{
-    height: 400px;
-    width: 600px;
-}
-#comisaria{
-    height: 400px;
-    width: 600px;
-}
-#escapada{
-    height: 400px;
-    width: 600px;
-}
-#bomberos{
-    height: 400px;
-    width: 600px;
-}
-#avion{
-    height: 400px;
-    width: 600px;
-}
 #starNav:hover{
     color: #528db1;
     border: #1c2020 solid 3px;
     background: #9C2e1f;
+}
+#techNav:hover{
+    color: #ffc500;
+    background-color: #1c2020;
+    border: #ffc500 3px solid;
 }
 #cityNav:hover{
     color: #d8dfe1;
@@ -129,7 +110,4 @@ footer{
     color: #7f0909;
     background-color: #ffc500;
     border: #1c2020 3px solid;
-}
-#navegacion>ol>li:hover{
-    background: teal;
 }
