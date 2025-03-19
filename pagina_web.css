@@ -66,6 +66,7 @@ footer{
 #sagas li+li{
     background-color: #7f0909;
     border: 3px solid #ffc500;
+    color: white;
 }
 #sagas nav{
     padding-right: 50px;
@@ -79,7 +80,7 @@ footer{
     display: inline-block;
     padding: 15px;
     background-color: lightseagreen;
-    color: white;
+    color: black;
     border: 3px solid black;
 }
 #navegacion ol{
@@ -91,9 +92,9 @@ img{
     width: 80%;
 }
 #starNav:hover{
-    color: #528db1;
     border: #1c2020 solid 3px;
-    background: #9C2e1f;
+    color: white;
+
 }
 #harryNav:hover{
     color: #7f0909;
